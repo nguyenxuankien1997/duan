@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarSchedule"
+        app:title="@string/Schedule"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:background="@drawable/background_calender"
+        android:layout_marginRight="@dimen/schedule_calender_marginRight"
+        android:layout_marginLeft="@dimen/schedule_calender_marginLeft"
+        android:layout_marginTop="@dimen/schedule_calender_marginTop"
+        android:layout_below="@+id/toolbarSchedule"
+        android:layout_width="@dimen/schedule_calender_width"
+        android:layout_height="@dimen/schedule_calender_height"
+        >
+    </CalendarView>
+    <!--<TextView-->
+        <!--android:id="@+id/txtTime"-->
+        <!--android:layout_alignTop="@+id/calendarView"-->
+        <!--android:textSize="@dimen/schedule_txtTime_size"-->
+        <!--android:textColor="#000000"-->
+        <!--android:text="Time: "-->
+        <!--android:layout_toRightOf="@+id/calendarView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <!--<TextView-->
+        <!--android:layout_alignBaseline="@+id/txtTime"-->
+        <!--android:layout_toRightOf="@+id/txtTime"-->
+        <!--android:id="@+id/txt_showTime"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/txtblock"
+        android:layout_alignTop="@+id/calendarView"
+        android:textSize="@dimen/schedule_txtTime_size"
+        android:textColor="#000000"
+        android:text="Block: "
+        android:layout_toRightOf="@+id/calendarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_alignBaseline="@+id/txtblock"
+        android:layout_toRightOf="@+id/txtblock"
+        android:id="@+id/txt_showBlock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myRecyclerView"
+        android:layout_marginTop="@dimen/list_schedule_margin"
+        android:layout_below="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

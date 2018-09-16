@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Welcome_padding">10dp</dimen>
+    <dimen name="Welcome_margin">5dp</dimen>
+    <dimen name="Welcome_image_height">300dp</dimen>
+    <dimen name="Welcome_image_width">300dp</dimen>
+    <dimen name="Welcome_image_radius">150dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="nav_header_padding">16dp</dimen>
+    <dimen name="nav_header_padding_textview">8dp</dimen>
+    <dimen name="nav_header_imv">96dp</dimen>
+    <dimen name="schedule_calender_marginLeft">10dp</dimen>
+    <dimen name="schedule_calender_width">200dp</dimen>
+    <dimen name="schedule_calender_height">100dp</dimen>
+    <dimen name="schedule_calender_marginTop">15dp</dimen>
+    <dimen name="schedule_txtTime_size">20dp</dimen>
+    <dimen name="schedule_calender_marginRight">8dp</dimen>
+    <dimen name="list_schedule_expand_padding">15dp</dimen>
+    <dimen name="list_schedule_expand_margin_imv">8dp</dimen>
+    <dimen name="list_schedule_margin">10dp</dimen>
+    <dimen name="list_schedule_cornerRadius">10dp</dimen>
+</resources>
